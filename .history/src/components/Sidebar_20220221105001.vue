@@ -4,9 +4,9 @@
       class="sidebar-el-menu"
       :default-active="onRoutes"
       :collapse="collapse"
-      background-color="#02052D"
-      text-color="#ffffff"
-      active-text-color="#047FF9"
+      background-color="#324157"
+      text-color="#bfcbd9"
+      active-text-color="#20a0ff"
       unique-opened
       router
     >
@@ -66,6 +66,11 @@ export default {
         index: "/table",
         title: "基础表格",
       },
+       {
+        icon: "el-icon-lx-cascades",
+        index: "/table",
+        title: "基础表格",
+      },
       {
         icon: "el-icon-lx-warn",
         index: "7",
@@ -114,7 +119,7 @@ export default {
   width: 0;
 }
 .sidebar-el-menu:not(.el-menu--collapse) {
-  width: 200px;
+  width: 250px;
 }
 .sidebar > ul {
   height: 100%;

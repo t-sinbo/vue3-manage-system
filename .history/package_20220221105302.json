@@ -8,6 +8,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@jbtje/vue3pdf": "^2.0.0",
     "axios": "^0.21.1",
     "element-plus": "1.0.2-beta.52",
     "vue": "^3.1.2",

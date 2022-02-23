@@ -1,5 +1,5 @@
 import {createRouter, createWebHashHistory} from "vue-router";
-import Home from "../views/Home.vue";
+import Home from "@/views/Home.vue";
 
 const routes = [
     {
@@ -23,7 +23,14 @@ const routes = [
                 meta: {
                     title: '表格'
                 },
-                component: () => import ( /* webpackChunkName: "table" */ "../views/BaseTable.vue")
+                component: () => import ( /* webpackChunkName: "table" */ "../views/basetable/index.vue")
+            }, {
+                path: "/fun",
+                name: "basetable",
+                meta: {
+                    title: '表格'
+                },
+                component: () => import ( /* webpackChunkName: "table" */ "../views/basetable/index.vue")
             }, {
                 path: "/permission",
                 name: "permission",
