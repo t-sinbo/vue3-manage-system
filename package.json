@@ -21,7 +21,9 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.3",
     "@vue/compiler-sfc": "^3.1.2",
-    "vite": "2.3.7"
+    "vite": "2.3.7",
+    "vite-plugin-windicss": "^1.8.3",
+    "windicss": "^3.5.1"
   },
   "browserslist": [
     "> 1%",
